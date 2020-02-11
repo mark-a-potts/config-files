@@ -95,10 +95,9 @@ export DISPLAY
 #set -o nounset     # These  two options are useful for debugging.
 #set -o xtrace
 alias debug="set -o nounset; set -o xtrace"
-
+alias psg="ps -ef | grep "
 ulimit -S -c 0      # Don't want coredumps.
 set -o notify
-#set -o noclobber
 set -o ignoreeof
 
 
@@ -234,10 +233,10 @@ fi
 
 
 
-NCPU=$(grep -c 'processor' /proc/cpuinfo)    # Number of CPUs
-SLOAD=$(( 100*${NCPU} ))        # Small load
-MLOAD=$(( 200*${NCPU} ))        # Medium load
-XLOAD=$(( 400*${NCPU} ))        # Xlarge load
+#NCPU=$(grep -c 'processor' /proc/cpuinfo)    # Number of CPUs
+#SLOAD=$(( 100*${NCPU} ))        # Small load
+#MLOAD=$(( 200*${NCPU} ))        # Medium load
+#XLOAD=$(( 400*${NCPU} ))        # Xlarge load
 
 # Returns system load as percentage, i.e., '40' rather than '0.40)'.
 function load()
@@ -307,11 +306,11 @@ bind '"\e[B": history-search-forward'
 PROMPT_COMMAND="history -a"
 
 #case ${TERM} in
-#  *term | rxvt | linux)
+#  *term* | rxvt | linux)
 # PS1="\h:"
 # PS1=\\h:\\w\;\ 
-# If PS1 is not set at all, this is not an interactive
-# shell and we should not mess with it.
+#        ;;
+#esac
 if [ -n "$PS1" ]; then
     # A temporary variable to contain our prompt command
     NEW_PROMPT_COMMAND='
@@ -334,8 +333,6 @@ if [ -n "$PS1" ]; then
     # \h - hostname, \u - username
     PS1='\u@\h:$TRIMMED_PWD\$ '
 fi
-#       ;;
-#esac
 
 
 
@@ -344,6 +341,7 @@ export HISTIGNORE="&:bg:fg:ll:h"
 export HISTTIMEFORMAT="$(echo -e ${BCyan})[%d/%m %H:%M:%S]$(echo -e ${NC}) "
 export HISTCONTROL=ignoredups
 export HOSTFILE=$HOME/.hosts    # Put a list of remote hosts in ~/.hosts
+export NS=/data/users/mpotts
 
 
 #============================================================
@@ -362,30 +360,34 @@ export HOSTFILE=$HOME/.hosts    # Put a list of remote hosts in ~/.hosts
 
 # -> Prevents accidentally clobbering files.
 alias mkdir='mkdir -p'
-alias find='$HOME/myfind'
-alias sq='squeue -u mapotts1'
+alias sq='squeue -u mpotts'
 alias h='history'
 alias j='jobs -l'
 alias which='type -a'
 alias ..='cd ..'
-alias bench='ssh -t -p 17407 user1@62.189.71.8 ssh -t  10.40.0.62'
-
+alias cs='cd /scratch/mpotts'
+alias css='cd /scratch/short/mpotts'
+alias cdd='cd /data/users/mpotts'
+export DT=/data/users/mpotts
 # Pretty-print of some PATH variables:
 alias path='echo -e ${PATH//:/\\n}'
 alias libpath='echo -e ${LD_LIBRARY_PATH//:/\\n}'
-
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+#export PATH=/home/shuwu/anaconda3/bin:$PATH
+export PFUNIT=/home/mpotts
+export F90_VENOR=intel
 
 alias du='du -kh'    # Makes a more readable output.
-alias df='df -kTh'
+#alias df='df -kTh'
 
-export NS=$NOBACKUP
-alias cn='cd $NS'
-alias cb='cd /discover/nobackup/mapotts1/nccs_FY17_benchmarks_working/GEOSadas-5_16_5-Benchmark/GEOSadas/benchmark-GEOSadas/benchmark-GEOSADAS-5_16-5-5day-c720'
+alias sal='salloc --ntasks=60 --exclusive --cpus-per-task=4 -t 02:30:00 --exclusive --account=star -p s4'
+alias sal5='salloc --ntasks=60 --exclusive --cpus-per-task=4 -t 05:00:00 --exclusive --account=star -p s4'
+
 #-------------------------------------------------------------
 # The 'ls' family (this assumes you use a recent GNU ls).
 #-------------------------------------------------------------
 # Add colors for filetype and  human-readable sizes by default on 'ls':
-alias ls='ls -h --color'
+#alias ls='ls -h --color'
 alias lx='ls -lXB'         #  Sort by extension.
 alias lk='ls -lSr'         #  Sort by size, biggest last.
 alias lt='ls -ltr'         #  Sort by date, most recent last.
@@ -431,10 +433,8 @@ alias vf='cd'
 alias moer='more'
 alias moew='more'
 alias kk='ll'
-alias account='sacctmgr show assoc format=account,user,partition where user=mapotts1'
 
 
-export PATH=$PATH:$HOME/cmake/bin
 #-------------------------------------------------------------
 # A few fun ones
 #-------------------------------------------------------------
@@ -452,7 +452,7 @@ function xtitle()
 
 
 # Aliases that use xtitle
-alias top='xtitle Processes on $HOST && top'
+#alias top='xtitle Processes on $HOST && top'
 alias make='xtitle Making $(basename $PWD) ; make'
 
 # .. and functions
@@ -592,30 +592,30 @@ function killps()   # kill by process name
     done
 }
 
-function mydf()         # Pretty-print of 'df' output.
-{                       # Inspired by 'dfc' utility.
-    for fs ; do
-
-        if [ ! -d $fs ]
-        then
-          echo -e $fs" :No such file or directory" ; continue
-        fi
-
-        local info=( $(command df -P $fs | awk 'END{ print $2,$3,$5 }') )
-        local free=( $(command df -Pkh $fs | awk 'END{ print $4 }') )
-        local nbstars=$(( 20 * ${info[1]} / ${info[0]} ))
-        local out="["
-        for ((j=0;j<20;j++)); do
-            if [ ${j} -lt ${nbstars} ]; then
-               out=$out"*"
-            else
-               out=$out"-"
-            fi
-        done
-        out=${info[2]}" "$out"] ("$free" free on "$fs")"
-        echo -e $out
-    done
-}
+#function mydf()         # Pretty-print of 'df' output.
+#{                       # Inspired by 'dfc' utility.
+#    for fs ; do
+#
+#        if [ ! -d $fs ]
+#        then
+#          echo -e $fs" :No such file or directory" ; continue
+#        fi
+#
+#        local info=( $(command df -P $fs | awk 'END{ print $2,$3,$5 }') )
+#        local free=( $(command df -Pkh $fs | awk 'END{ print $4 }') )
+#        local nbstars=$(( 20 * ${info[1]} / ${info[0]} ))
+#        local out="["
+#        for ((j=0;j<20;j++)); do
+#            if [ ${j} -lt ${nbstars} ]; then
+#               out=$out"*"
+#            else
+#               out=$out"-"
+#            fi
+#        done
+#        out=${info[2]}" "$out"] ("$free" free on "$fs")"
+#        echo -e $out
+#    done
+#}
 
 
 function my_ip() # Get IP adress on ethernet.
@@ -941,7 +941,8 @@ _killall()
 
 complete -F _killall killall killps
 
-
+export SVN_EDITOR=vim
+#source $HOME/git-subrepo/.rc
 
 # Local Variables:
 # mode:shell-script
@@ -971,9 +972,12 @@ complete -F _killall killall killps
 ##+ use escapes and double quotes:
 export SPACK_ROOT=$HOME/spack
 export PATH=$PATH:$SPACK_ROOT/bin
+export PATH=/usr/local/krb5/bin:$PATH
+export PATH=/usr/local/ossh/bin:$PATH
 . $SPACK_ROOT/share/spack/setup-env.sh
-#export CONDOR_CONFIG=/s4data/users/mpotts/condor/etc/condor_config
-source $HOME/.bash_alias
-#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/krb5/lib
-#export PATH=$HOME/krb5/bin:$HOME/ossh/bin:$PATH
-
+. $HOME/.bash_alias
+export CYLC_HOME_ROOT=$HOME/cylc
+export CYLC_HOME=$HOME/cylc
+export CYLC_VERSION=7.8.3
+export PATH="/usr/local/opt/libxml2/bin:$PATH"
+export GIT_EDITOR=vim
