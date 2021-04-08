@@ -1,3 +1,13 @@
 [user]
 	name = Mark Potts
-	email = mpotts@redlineperf.com
+	username = mark-a-potts
+	email = Mark.Potts@noaa.gov
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[credential]
+	helper = store
+[push]
+	default = current

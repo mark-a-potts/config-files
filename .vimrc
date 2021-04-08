@@ -29,6 +29,7 @@ Plugin 'gmarik/Vundle.vim'
 set guioptions-=T 
 set guioptions-=m 
 set hidden
+set hlsearch
 " switch between header and cpp
 map <F4> :e %:p:s,.hpp$,.X123X,:s,.cpp$,.hpp,:s,.X123X$,.cpp,<CR>
 
@@ -45,7 +46,7 @@ Plugin 'vim-scripts/genutils'
 Plugin 'vim-scripts/mru.vim'
 Plugin 'vim-scripts/grep.vim'
 Plugin 'vim-scripts/SelectBuf'
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -63,7 +64,12 @@ filetype plugin indent on    " required
 
 
 "command! -bar -complete=dir -nargs=? Build cd ~/stellar/build/farfieldApprox/src | make -j 8 | cd -
-command! -bar -complete=dir -nargs=? Build cd ~/Stellar/build/cmake/onestep/Debug | make  | cd -
+"command! -bar -complete=dir -nargs=? Build cd /home/mpotts/sandbox/ufs-weather-model/build-debug | make -j 8 | cd -
+command! -bar -complete=dir -nargs=? Build cd /home/mpotts/fv3-bundle/build | make -j 8 | cd -
+command! -bar -complete=dir -nargs=? Build2 cd /home/mpotts/ufs-weather-model/build | make -j 8 install | cd /home/mpotts/fv3-bundle/build | make -j 8 | cd -
+command! -bar -complete=dir -nargs=? Build3 cd /home/mpotts/test/ufs-weather-model/build | make -j 8 install | cd /home/mpotts/test/fv3-bundle/build | make -j 8 | cd -
+command! -bar -complete=dir -nargs=? Build4 cd /home/mpotts/ufs-test/build | make -j 8 install | cd /home/mpotts/fv3-test/build | make -j 8 | cd -
+command! -bar -complete=dir -nargs=? Mysave cd /home/mpotts/work-notes | ~/bin/gitpush | cd -
 "command! -bar -complete=dir -nargs=? Build cd ~/Stellar/Controlled/buildArea/cmake/onestep/Release/StellarPy | make -j 8 | cd -
 syntax on
 :set paste

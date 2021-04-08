@@ -1,3 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/mpotts/.cime'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/mpotts/fv3-test/fv3-jedi'
+let g:netrw_dirhist_2='/home/mpotts/fv3-bundle/oops'
+let g:netrw_dirhist_3='/home/mpotts/spack/share/spack/lmod/linux-linuxmint19-x86_64/openmpi/3.1.3-rtzmvk7/gcc/9.3.0/vtk'
+let g:netrw_dirhist_4='/home/mpotts/spack/var/spack/environments/vorcat/.spack-env/view'
+let g:netrw_dirhist_5='/home/mpotts/fv3-bundle/oops'
+let g:netrw_dirhist_6='/home/mpotts/ufs-weather-model'
+let g:netrw_dirhist_7='/home/mpotts'
+let g:netrw_dirhist_8='/home/mpotts/esmf-test-artifacts/release/8.1.0/chianti/gfortran/9.3.0/O/openmpi/3.1.3-gcc-9.3.0/test'
+let g:netrw_dirhist_9='/home/mpotts/fv3-bundle/fv3-jedi/src'

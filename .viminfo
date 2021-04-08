@@ -11,215 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/Mint
+~MSle0~/plavacs
 
 # Last Substitute Search Pattern:
-~MSle0&git checkout noaa-head 
+~MSle0&geos
 
 # Last Substitute String:
-$
+$fv3
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1581448831,,"wq"
 :q
-|2,0,1581447167,,"q"
+|2,0,1617916144,,"q"
 :w
-|2,0,1581443458,,"w"
-:set ic
-|2,0,1581433190,,"set ic"
+|2,0,1617916034,,"w"
+:wq
+|2,0,1617915824,,"wq"
+:copen
+|2,0,1617829361,,"copen"
+:Build
+|2,0,1617829334,,"Build"
+:!gitpush
+|2,0,1617829960,,"!gitpush"
+:!!
+|2,0,1617829956,,"!!"
 :MRU
-|2,0,1581360609,,"MRU"
+|2,0,1617829939,,"MRU"
+:Mysave
+|2,0,1617829745,,"Mysave"
+:Save
+|2,0,1617829661,,"Save"
+:Push
+|2,0,1617829656,,"Push"
 :q!
-|2,0,1581359947,,"q!"
-:w ~/.cime/config_machine.xml
-|2,0,1581359944,,"w ~/.cime/config_machine.xml"
+|2,0,1617156240,,"q!"
+:Buil
+|2,0,1616782894,,"Buil"
+:Build2
+|2,0,1616779609,,"Build2"
+:1,$s/geos/fv3/g
+|2,0,1616779417,,"1,$s/geos/fv3/g"
+:vsplit
+|2,0,1616774889,,"vsplit"
 :split
-|2,0,1580840203,,"split"
+|2,0,1616771724,,"split"
+:vplit
+|2,0,1616771722,,"vplit"
+:w!
+|2,0,1616703781,,"w!"
+:MR
+|2,0,1616702327,,"MR"
+:MRu
+|2,0,1616700975,,"MRu"
+:set nu
+|2,0,1616695411,,"set nu"
+:MRU'
+|2,0,1616687449,,"MRU'"
+:.,$s/cplflx2/cplflx/g
+|2,0,1616607790,,".,$s/cplflx2/cplflx/g"
+:set ic
+|2,0,1616675674,,"set ic"
+:o /home/mpotts/ufs-weather-model/FV3/atmos_cubed_sphere/tools/fv_diagnostics.F90
+|2,0,1616605914,,"o /home/mpotts/ufs-weather-model/FV3/atmos_cubed_sphere/tools/fv_diagnostics.F90"
+:.,$s/cplflx/cplflx2/g
+|2,0,1616522857,,".,$s/cplflx/cplflx2/g"
+:1,$s/c96/ccpp/g
+|2,0,1616436183,,"1,$s/c96/ccpp/g"
 :n
-|2,0,1580830887,,"n"
-:set ci
-|2,0,1580824624,,"set ci"
-:N
-|2,0,1580824410,,"N"
-:1,$s/git checkout noaa-head /git rm /g
-|2,0,1580426224,,"1,$s/git checkout noaa-head /git rm /g"
-:1,$s/aa-head/aa-head /g
-|2,0,1580426145,,"1,$s/aa-head/aa-head /g"
-:1,$s/^/ git checkout noaa-head/g
-|2,0,1580426117,,"1,$s/^/ git checkout noaa-head/g"
-:1,$s/^/git checkout noaa-head /g
-|2,0,1580425264,,"1,$s/^/git checkout noaa-head /g"
-:qa
-|2,0,1580425008,,"qa"
-:1,$s/deleted by them:/git rm/g
-|2,0,1580424943,,"1,$s/deleted by them:/git rm/g"
-:149,.s/^/  /g
-|2,0,1580423070,,"149,.s/^/  /g"
-:1,$s/^/git rm /g
-|2,0,1580420152,,"1,$s/^/git rm /g"
-:1,$s/^/git checkout noaa-release /g
-|2,0,1580420056,,"1,$s/^/git checkout noaa-release /g"
-:qq
-|2,0,1580419826,,"qq"
-:wn
-|2,0,1580149106,,"wn"
-:1,$s/^/rm -rf /g
-|2,0,1579897172,,"1,$s/^/rm -rf /g"
-:q:q
-|2,0,1579795754,,"q:q"
-:1,$s/^/cp FindNetCDF.cmake /g
-|2,0,1579786899,,"1,$s/^/cp FindNetCDF.cmake /g"
-:1,$s/cp FindNetCDF.cmake /g
-|2,0,1579786882,,"1,$s/cp FindNetCDF.cmake /g"
-:1,$s/.gitmodules/cmake/g
-|2,0,1579726936,,"1,$s/.gitmodules/cmake/g"
-:1,$s/^/cd /g
-|2,0,1579726728,,"1,$s/^/cd /g"
-:1,$s/NOAA-EMC/mark-a-potts/g
-|2,0,1579725604,,"1,$s/NOAA-EMC/mark-a-potts/g"
-:1,$s/CMAKE_INSTALL_PREFIX/NCEPLIBS_INSTALL_DIR/g
-|2,0,1579621103,,"1,$s/CMAKE_INSTALL_PREFIX/NCEPLIBS_INSTALL_DIR/g"
-:o build-2/CMakeCache.txt
-|2,0,1579611812,,"o build-2/CMakeCache.txt"
-:s
-|2,0,1579203016,,"s"
-:.,$s/^#//g
-|2,0,1579196593,,".,$s/^#//g"
-:.,$s/^/#/g
-|2,0,1578947276,,".,$s/^/#/g"
-:1,$s/COMMAND make/COMMAND ninja/g
-|2,0,1577309383,,"1,$s/COMMAND make/COMMAND ninja/g"
-:PluginUpdate
-|2,0,1575897214,,"PluginUpdate"
-:PluginInstall
-|2,0,1575897205,,"PluginInstall"
-:version
-|2,0,1575897080,,"version"
-::PluginInstall
-|2,0,1575896850,,":PluginInstall"
-:.,138s/CORE_LIBRARIES/CORE_DEPS/g
-|2,0,0,,".,138s/CORE_LIBRARIES/CORE_DEPS/g"
-:o cmake/Modules/FindCorelibs.cmake
-|2,0,0,,"o cmake/Modules/FindCorelibs.cmake"
-:.s/CRTM/EMC/g
-|2,0,0,,".s/CRTM/EMC/g"
-:.s/CRTM/SP/g
-|2,0,0,,".s/CRTM/SP/g"
-:.s/CRTM/NEMSIO/g
-|2,0,0,,".s/CRTM/NEMSIO/g"
-:.s/CRTM/SIGIO/g
-|2,0,0,,".s/CRTM/SIGIO/g"
-:.s/CRTM/SFCIO/g
-|2,0,0,,".s/CRTM/SFCIO/g"
-:.s/CRTM/BUFR/g
-|2,0,0,,".s/CRTM/BUFR/g"
-:.s/CRTM/BACIO/g
-|2,0,0,,".s/CRTM/BACIO/g"
-:o ../CMakeLists.txt
-|2,0,0,,"o ../CMakeLists.txt"
+|2,0,1616177065,,"n"
+:wqa
+|2,0,1616175796,,"wqa"
+:Jq
+|2,0,1616164082,,"Jq"
+:o /home/mpotts/ufs-weather-model/FV3/ccpp/physics/physics/module_gfdl_cloud_microphys.F90
+|2,0,1616093374,,"o /home/mpotts/ufs-weather-model/FV3/ccpp/physics/physics/module_gfdl_cloud_microphys.F90"
+:Buile2
+|2,0,1616085561,,"Buile2"
+:1,$s/...)//g
+|2,0,1615908500,,"1,$s/...)//g"
+:1,$s/^build/#build/g
+|2,0,1615829470,,"1,$s/^build/#build/g"
+:1,.s/^build/#build/g
+|2,0,1615821814,,"1,.s/^build/#build/g"
+:1,.s/^#build/build/g
+|2,0,1615821392,,"1,.s/^#build/build/g"
+:1,.s/^build_/#build_/g
+|2,0,1615820265,,"1,.s/^build_/#build_/g"
+:.,$s/geos/fv3/g
+|2,0,1615316514,,".,$s/geos/fv3/g"
+:build
+|2,0,1615307174,,"build"
+:.,$s/^/    /g
+|2,0,1615241762,,".,$s/^/    /g"
+:1,.s/build: YES/build: NO/g
+|2,0,1614693678,,"1,.s/build: YES/build: NO/g"
+:1,$./build: YES/build: NO/g
+|2,0,1614693660,,"1,$./build: YES/build: NO/g"
+:.,$s/build: NO/build: YES/g
+|2,0,1614692319,,".,$s/build: NO/build: YES/g"
+:.,$s/build: YES/build: NO/g
+|2,0,1614691248,,".,$s/build: YES/build: NO/g"
+:Biuld
+|2,0,1614092898,,"Biuld"
+:qd
+|2,0,1614027189,,"qd"
+:qd 5dd
+|2,0,1614026893,,"qd 5dd"
+:qe5dd
+|2,0,1614026885,,"qe5dd"
+:qd5di     esmf_err_abort(rc)q
+|2,0,1614026785,,"qd5di     esmf_err_abort(rc)q"
 
 # Search String History (newest to oldest):
-?/Mint
-|2,1,1581443426,47,"Mint"
-?/PROX
-|2,1,1581432687,47,"PROX"
-?/Expe
-|2,1,1581432123,47,"Expe"
-?/centos7
-|2,1,1581431442,47,"centos7"
-?/usr
-|2,1,1581422328,47,"usr"
-?/cesm
-|2,1,1581421965,47,"cesm"
-? @$
-|2,1,1581421847,,"@$"
-?/CIME.XML
-|2,1,1581360192,47,"CIME.XML"
-?/ufs
-|2,1,1581359661,47,"ufs"
-?/ubuntu
-|2,1,1581359645,47,"ubuntu"
-?/hash <
-|2,1,1581006350,47,"hash <"
-?/poi
-|2,1,1580994596,47,"poi"
-?/hok
-|2,1,1580994574,47,"hok"
-?/WORKDIR
-|2,1,1580927420,47,"WORKDIR"
-?/PNG
-|2,1,1580843310,47,"PNG"
-?/JAS
-|2,1,1580843302,47,"JAS"
-?/PNG_LIB
-|2,1,1580843284,47,"PNG_LIB"
-?/JASPER
-|2,1,1580843179,47,"JASPER"
-?/LIBNAME
-|2,1,1580840556,47,"LIBNAME"
-?/message
-|2,1,1580840410,47,"message"
-?/bacio
-|2,1,1580830644,47,"bacio"
-?/link
-|2,1,1580830539,47,"link"
-?/target_include
-|2,1,1580830865,47,"target_include"
-?/IMG
-|2,1,1580830342,47,"IMG"
-?/baccio
-|2,1,1580830223,47,"baccio"
-?/png
-|2,1,1580830067,47,"png"
-?/jasper
-|2,1,1580830053,47,"jasper"
-?/ZLIB
-|2,1,1580827830,47,"ZLIB"
-?/DL
-|2,1,1580825816,47,"DL"
-?/gnu
-|2,1,1580824629,47,"gnu"
-?/find
-|2,1,1580824333,47,"find"
-?/PROJECT
-|2,1,1580823773,47,"PROJECT"
-? git checkout noaa-head 
-|2,1,1580426224,,"git checkout noaa-head "
-? aa-head
-|2,1,1580426145,,"aa-head"
-? ^
-|2,1,1580426117,,"^"
-?/>>>>
-|2,1,1580425924,47,">>>>"
-?/<<<
-|2,1,1580425894,47,"<<<"
-? deleted by them:
-|2,1,1580424943,,"deleted by them:"
-?/CCPP
-|2,1,1580423117,47,"CCPP"
-?/option
-|2,1,1580423107,47,"option"
-?/len
-|2,1,1580421509,47,"len"
-?/-W
-|2,1,1580421495,47,"-W"
-?/flag
-|2,1,1580421448,47,"flag"
-?/Wall
-|2,1,1580421446,47,"Wall"
-?/Werror
-|2,1,1580421444,47,"Werror"
-?/cmake
-|2,1,1580420041,47,"cmake"
+? home
+|2,1,1617829471,,"home"
+?/pp
+|2,1,1617829447,47,"pp"
+?/plavacs
+|2,1,1617336217,47,"plavacs"
+?/easton
+|2,1,1617197619,47,"easton"
+?/setup_e
+|2,1,1616790854,47,"setup_e"
+?/atmos_
+|2,1,1616790850,47,"atmos_"
+?/cpl
+|2,1,1616790463,47,"cpl"
+?/input.nml
+|2,1,1616790461,47,"input.nml"
+?/UFS
+|2,1,1616789781,47,"UFS"
+?/FMS
+|2,1,1616789723,47,"FMS"
+?/subname
+|2,1,1616781918,47,"subname"
 ?/>>>
-|2,1,1580419773,47,">>>"
-?/include_
-|2,1,1580419286,47,"include_"
-?/include-
-|2,1,1580419282,47,"include-"
-?/ESMFMK
-|2,1,1580409707,47,"ESMFMK"
+|2,1,1616781906,47,">>>"
+?/<<<
+|2,1,1616781904,47,"<<<"
+?/fieldname
+|2,1,1616781807,47,"fieldname"
+?/cplFieldGet
+|2,1,1616781544,47,"cplFieldGet"
+?/FV3
+|2,1,1616781279,47,"FV3"
+?/step
+|2,1,1616780670,47,"step"
+?/subrout
+|2,1,1616780545,47,"subrout"
+?/lb
+|2,1,1616780483,47,"lb"
+?/typekind
+|2,1,1616780023,47,"typekind"
+?/filename
+|2,1,1616780014,47,"filename"
+?/gridF
+|2,1,1616780005,47,"gridF"
+?/IOC
+|2,1,1616780001,47,"IOC"
+?/firstESM
+|2,1,1616779997,47,"firstESM"
+?/firstfld
+|2,1,1616779992,47,"firstfld"
+?/fieldcount
+|2,1,1616779987,47,"fieldcount"
+?/3
+|2,1,1616779893,47,"3"
+? geos
+|2,1,1616779417,,"geos"
+?/geos
+|2,1,1616779401,47,"geos"
+?/cplflx=
+|2,1,1616778151,47,"cplflx="
+?/cplflx =
+|2,1,1616778148,47,"cplflx ="
+?/write
+|2,1,1616778108,47,"write"
+?/mean_zonal_moment_flx_atm
+|2,1,1616777453,47,"mean_zonal_moment_flx_atm"
+?/sensi
+|2,1,1616776935,47,"sensi"
+?/dswsfci_cpl
+|2,1,1616775549,47,"dswsfci_cpl"
+?/inst_down_sw_flx
+|2,1,1616775489,47,"inst_down_sw_flx"
+?/mean_laten
+|2,1,1616775172,47,"mean_laten"
+?/head
+|2,1,1616775129,47,"head"
+?/inst
+|2,1,1616774897,47,"inst"
+?/usfc_cpl
+|2,1,1616774826,47,"usfc_cpl"
+?/fillExportField
+|2,1,1616774793,47,"fillExportField"
+?/rtime
+|2,1,1616774721,47,"rtime"
+?/trime
+|2,1,1616774719,47,"trime"
+?/mean_zonal
+|2,1,1616774509,47,"mean_zonal"
+?/setup_exportdata
+|2,1,1616774376,47,"setup_exportdata"
+?/mean_merid_moment
+|2,1,1616774350,47,"mean_merid_moment"
+?/dvsfc
+|2,1,1616777500,47,"dvsfc"
+?/dusfc_cpl
+|2,1,1616777465,47,"dusfc_cpl"
+?/dswsfci
+|2,1,1616776426,47,"dswsfci"
+?/cplflx
+|2,1,1616775970,47,"cplflx"
 
 # Expression History (newest to oldest):
 
@@ -228,39 +230,45 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	none
-|3,0,0,0,1,0,1581421847,"none"
+"0	LINE	0
+	command! -bar -complete=dir -nargs=? Build4 cd /home/mpotts/ufs-test/build | make -j 8 install | cd /home/mpotts/fv3-test/build | make -j 8 | cd -
+|3,0,0,1,1,0,1617829604,"command! -bar -complete=dir -nargs=? Build4 cd /home/mpotts/ufs-test/build | make -j 8 install | cd /home/mpotts/fv3-test/build | make -j 8 | cd -"
 "1	LINE	0
-	    <PROXY> https://howto.get.out </PROXY>
-|3,0,1,1,1,0,1581432689,"    <PROXY> https://howto.get.out </PROXY>"
+	command! -bar -complete=dir -nargs=? Push cd ~/work-notes | gitpush | cd -
+|3,0,1,1,1,0,1617829608,"command! -bar -complete=dir -nargs=? Push cd ~/work-notes | gitpush | cd -"
 "2	LINE	0
-		<command name="load">tool/netcdf/4.6.1/gcc-8.1.0</command>
-|3,0,2,1,1,0,1581422523,"	<command name=\"load\">tool/netcdf/4.6.1/gcc-8.1.0</command>"
+	    
+|3,0,2,1,1,0,1616781917,"    "
 "3	LINE	0
-	<!--  <arg name="labelstdout">--prepend-rank</arg> -->
-|3,0,3,1,1,0,1581359917,"<!--  <arg name=\"labelstdout\">--prepend-rank</arg> -->"
+	>>>>>>> origin/develop
+|3,0,3,1,1,0,1616781907,">>>>>>> origin/develop"
 "4	LINE	0
-	       if(hash < 0) hash = MPI_UNDEFINED
-|3,0,4,1,1,0,1581006352,"       if(hash < 0) hash = MPI_UNDEFINED"
+	>>>>>>> origin/develop
+|3,0,4,1,1,0,1616781901,">>>>>>> origin/develop"
 "5	LINE	0
-	  Port 2020
-|3,0,5,1,1,0,1580994584,"  Port 2020"
+	  
+|3,0,5,1,1,0,1616781901,"  "
 "6	LINE	0
-	  ProxyJump vapp
-|3,0,6,1,1,0,1580994581,"  ProxyJump vapp"
+	
+|3,0,6,1,1,0,1616781901,""
 "7	LINE	0
-	target_include_directories(${LIBNAME} PUBLIC ${MPI_Fortran_INCLUDE_PATH} ${MPI_C_INCLUDE_PATH} ${NETCDF_INCLUDES} ${module_dir})
-|3,0,7,1,1,0,1580840965,"target_include_directories(${LIBNAME} PUBLIC ${MPI_Fortran_INCLUDE_PATH} ${MPI_C_INCLUDE_PATH} ${NETCDF_INCLUDES} ${module_dir})"
+	  end subroutine FV3_StateWrite
+|3,0,7,1,1,0,1616781901,"  end subroutine FV3_StateWrite"
 "8	LINE	0
-	target_include_directories(${LIBNAME}  sp_4 sigio sfcio gfsio_4
-|3,0,8,1,1,0,1580840479,"target_include_directories(${LIBNAME}  sp_4 sigio sfcio gfsio_4"
+	
+|3,0,8,1,1,0,1616781900,""
 "9	LINE	0
-	target_include_directories(${LIBNAME}  sp_4 sigio sfcio gfsio_4
-|3,0,9,1,1,0,1580840479,"target_include_directories(${LIBNAME}  sp_4 sigio sfcio gfsio_4"
+	
+|3,0,9,1,1,0,1616781900,""
+"j	CHAR	0
+	kukkujjjjkjkkkkjjk
+|3,0,19,0,1,0,1614027473,"kukkujjjjkjkkkkjjk"
+"q@	CHAR	0
+	/rcToCheck=rc5ddiesmf_err_abort(rc)    
+|3,2,26,0,1,0,1614027528,"/rcToCheck=rc5ddiesmf_err_abort(rc)    "
 ""-	CHAR	0
-	.
-|3,1,36,0,1,0,1581443436,"."
+	`
+|3,1,36,0,1,0,1617829739,"`"
 
 # global variables:
 !ST_WIN_SH	NUM	1
@@ -268,529 +276,360 @@ $
 !ST_WIN_CMD	NUM	0
 
 # File marks:
-'0  105  44  ~/.bash_alias
-|4,48,105,44,1581448831,"~/.bash_alias"
-'1  1  0  ~/ufs-weather-model/.git/MERGE_MSG
-|4,49,1,0,1581447167,"~/ufs-weather-model/.git/MERGE_MSG"
-'2  1756  0  ~/cime/scripts/tests/log.reg
-|4,50,1756,0,1581446664,"~/cime/scripts/tests/log.reg"
-'3  52  24  ~/.cime/config_machines.xml
-|4,51,52,24,1581443459,"~/.cime/config_machines.xml"
-'4  41  0  ~/.cime/config_machines.xml
-|4,52,41,0,1581434466,"~/.cime/config_machines.xml"
-'5  41  0  ~/.cime/config_machines.xml
-|4,53,41,0,1581434466,"~/.cime/config_machines.xml"
-'6  2  0  ~/cime/README.md
-|4,54,2,0,1581433310,"~/cime/README.md"
-'7  59  4  ~/.cime/config_machines.xml
-|4,55,59,4,1581432693,"~/.cime/config_machines.xml"
-'8  59  4  ~/.cime/config_machines.xml
-|4,56,59,4,1581432693,"~/.cime/config_machines.xml"
-'9  59  4  ~/.cime/config_machines.xml
-|4,57,59,4,1581432693,"~/.cime/config_machines.xml"
+'0  1  0  ~/gfortran_9.3.0_openmpi_O/test-gfortran_9.3.0_openmpi_O.bat
+|4,48,1,0,1617916144,"~/gfortran_9.3.0_openmpi_O/test-gfortran_9.3.0_openmpi_O.bat"
+'1  23  28  ~/esmf-test-scripts/chianti-no-modules.yaml
+|4,49,23,28,1617916036,"~/esmf-test-scripts/chianti-no-modules.yaml"
+'2  1  0  ~/esmf-test-scripts/chianti.yaml
+|4,50,1,0,1617915962,"~/esmf-test-scripts/chianti.yaml"
+'3  26  28  ~/esmf-test-scripts/chianti.yaml
+|4,51,26,28,1617915824,"~/esmf-test-scripts/chianti.yaml"
+'4  26  28  ~/esmf-test-scripts/chianti.yaml
+|4,52,26,28,1617915824,"~/esmf-test-scripts/chianti.yaml"
+'5  957  0  ~/.bashrc
+|4,53,957,0,1617914668,"~/.bashrc"
+'6  22  0  ~/.profile
+|4,54,22,0,1617914649,"~/.profile"
+'7  961  0  ~/.bashrc
+|4,55,961,0,1617914627,"~/.bashrc"
+'8  961  0  ~/.bashrc
+|4,56,961,0,1617914627,"~/.bashrc"
+'9  256  12  ~/spack/var/spack/repos/builtin/packages/esmf/package.py
+|4,57,256,12,1617910149,"~/spack/var/spack/repos/builtin/packages/esmf/package.py"
 
 # Jumplist (newest first):
--'  105  44  ~/.bash_alias
-|4,39,105,44,1581448831,"~/.bash_alias"
--'  1  0  ~/.bash_alias
-|4,39,1,0,1581448811,"~/.bash_alias"
--'  1  0  ~/ufs-weather-model/.git/MERGE_MSG
-|4,39,1,0,1581447167,"~/ufs-weather-model/.git/MERGE_MSG"
--'  1  0  ~/ufs-weather-model/.git/MERGE_MSG
-|4,39,1,0,1581447167,"~/ufs-weather-model/.git/MERGE_MSG"
--'  1756  0  ~/cime/scripts/tests/log.reg
-|4,39,1756,0,1581446664,"~/cime/scripts/tests/log.reg"
--'  1756  0  ~/cime/scripts/tests/log.reg
-|4,39,1756,0,1581446664,"~/cime/scripts/tests/log.reg"
--'  1756  0  ~/cime/scripts/tests/log.reg
-|4,39,1756,0,1581446664,"~/cime/scripts/tests/log.reg"
--'  1756  0  ~/cime/scripts/tests/log.reg
-|4,39,1756,0,1581446664,"~/cime/scripts/tests/log.reg"
--'  1  0  ~/cime/scripts/tests/log.reg
-|4,39,1,0,1581446653,"~/cime/scripts/tests/log.reg"
--'  1  0  ~/cime/scripts/tests/log.reg
-|4,39,1,0,1581446653,"~/cime/scripts/tests/log.reg"
--'  1  0  ~/cime/scripts/tests/log.reg
-|4,39,1,0,1581446653,"~/cime/scripts/tests/log.reg"
--'  1  0  ~/cime/scripts/tests/log.reg
-|4,39,1,0,1581446653,"~/cime/scripts/tests/log.reg"
--'  52  24  ~/.cime/config_machines.xml
-|4,39,52,24,1581443459,"~/.cime/config_machines.xml"
--'  52  24  ~/.cime/config_machines.xml
-|4,39,52,24,1581443459,"~/.cime/config_machines.xml"
--'  52  24  ~/.cime/config_machines.xml
-|4,39,52,24,1581443459,"~/.cime/config_machines.xml"
--'  52  24  ~/.cime/config_machines.xml
-|4,39,52,24,1581443459,"~/.cime/config_machines.xml"
--'  52  24  ~/.cime/config_machines.xml
-|4,39,52,24,1581443459,"~/.cime/config_machines.xml"
--'  52  24  ~/.cime/config_machines.xml
-|4,39,52,24,1581443459,"~/.cime/config_machines.xml"
--'  52  24  ~/.cime/config_machines.xml
-|4,39,52,24,1581443459,"~/.cime/config_machines.xml"
--'  52  24  ~/.cime/config_machines.xml
-|4,39,52,24,1581443459,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581443426,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581443426,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581443426,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581443426,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581443426,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581443426,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581443426,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581443426,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  41  0  ~/.cime/config_machines.xml
-|4,39,41,0,1581434466,"~/.cime/config_machines.xml"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  2  0  ~/cime/README.md
-|4,39,2,0,1581433310,"~/cime/README.md"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581433271,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581433271,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581433271,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581433271,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581433271,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581433271,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581433271,"~/.cime/config_machines.xml"
--'  1  0  ~/.cime/config_machines.xml
-|4,39,1,0,1581433271,"~/.cime/config_machines.xml"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  1  0  ~/cime/README.md
-|4,39,1,0,1581433187,"~/cime/README.md"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
--'  59  4  ~/.cime/config_machines.xml
-|4,39,59,4,1581432693,"~/.cime/config_machines.xml"
+-'  1  0  ~/gfortran_9.3.0_openmpi_O/test-gfortran_9.3.0_openmpi_O.bat
+|4,39,1,0,1617916144,"~/gfortran_9.3.0_openmpi_O/test-gfortran_9.3.0_openmpi_O.bat"
+-'  23  28  ~/esmf-test-scripts/chianti-no-modules.yaml
+|4,39,23,28,1617916036,"~/esmf-test-scripts/chianti-no-modules.yaml"
+-'  1  0  ~/esmf-test-scripts/chianti-no-modules.yaml
+|4,39,1,0,1617916009,"~/esmf-test-scripts/chianti-no-modules.yaml"
+-'  1  0  ~/esmf-test-scripts/chianti.yaml
+|4,39,1,0,1617915962,"~/esmf-test-scripts/chianti.yaml"
+-'  1  0  ~/esmf-test-scripts/chianti.yaml
+|4,39,1,0,1617915962,"~/esmf-test-scripts/chianti.yaml"
+-'  26  28  ~/esmf-test-scripts/chianti.yaml
+|4,39,26,28,1617915824,"~/esmf-test-scripts/chianti.yaml"
+-'  26  28  ~/esmf-test-scripts/chianti.yaml
+|4,39,26,28,1617915824,"~/esmf-test-scripts/chianti.yaml"
+-'  26  28  ~/esmf-test-scripts/chianti.yaml
+|4,39,26,28,1617915824,"~/esmf-test-scripts/chianti.yaml"
+-'  26  28  ~/esmf-test-scripts/chianti.yaml
+|4,39,26,28,1617915824,"~/esmf-test-scripts/chianti.yaml"
+-'  26  28  ~/esmf-test-scripts/chianti.yaml
+|4,39,26,28,1617915824,"~/esmf-test-scripts/chianti.yaml"
+-'  1  0  ~/esmf-test-scripts/chianti.yaml
+|4,39,1,0,1617915808,"~/esmf-test-scripts/chianti.yaml"
+-'  1  0  ~/esmf-test-scripts/chianti.yaml
+|4,39,1,0,1617915808,"~/esmf-test-scripts/chianti.yaml"
+-'  1  0  ~/esmf-test-scripts/chianti.yaml
+|4,39,1,0,1617915808,"~/esmf-test-scripts/chianti.yaml"
+-'  957  0  ~/.bashrc
+|4,39,957,0,1617914668,"~/.bashrc"
+-'  957  0  ~/.bashrc
+|4,39,957,0,1617914668,"~/.bashrc"
+-'  957  0  ~/.bashrc
+|4,39,957,0,1617914668,"~/.bashrc"
+-'  957  0  ~/.bashrc
+|4,39,957,0,1617914668,"~/.bashrc"
+-'  957  0  ~/.bashrc
+|4,39,957,0,1617914668,"~/.bashrc"
+-'  957  0  ~/.bashrc
+|4,39,957,0,1617914668,"~/.bashrc"
+-'  957  0  ~/.bashrc
+|4,39,957,0,1617914668,"~/.bashrc"
+-'  957  0  ~/.bashrc
+|4,39,957,0,1617914668,"~/.bashrc"
+-'  957  0  ~/.bashrc
+|4,39,957,0,1617914668,"~/.bashrc"
+-'  957  0  ~/.bashrc
+|4,39,957,0,1617914668,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1617914654,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1617914654,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1617914654,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1617914654,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1617914654,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1617914654,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1617914654,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1617914654,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1617914654,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1617914654,"~/.bashrc"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  22  0  ~/.profile
+|4,39,22,0,1617914649,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1617914646,"~/.profile"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
+-'  961  0  ~/.bashrc
+|4,39,961,0,1617914627,"~/.bashrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/.bash_alias
-	*	1581448831	0
-	"	105	44
-	^	105	45
-	.	105	44
-	+	105	44
+> ~/esmf-test-scripts/chianti-no-modules.yaml
+	*	1617916034	0
+	"	23	28
+	^	23	29
+	.	23	28
+	+	23	28
 
-> ~/ufs-weather-model/.git/MERGE_MSG
-	*	1581447163	0
+> ~/esmf-test-scripts/chianti.yaml
+	*	1617915953	0
+	"	1	0
+	^	26	29
+	.	26	28
+	+	26	28
+
+> ~/gfortran_9.3.0_openmpi_O/test-gfortran_9.3.0_openmpi_O.bat
+	*	1617915914	0
+	"	1	0
+	^	23	29
+	.	23	28
+	+	23	28
+
+> ~/.bashrc
+	*	1617914667	0
+	"	957	0
+
+> ~/.profile
+	*	1617914647	0
+	"	22	0
+
+> ~/spack/var/spack/repos/builtin/packages/esmf/package.py
+	*	1617910147	0
+	"	256	12
+
+> ~/work-notes/notes
+	*	1617887801	0
+	"	300	0
+	^	299	23
+	.	299	22
+	+	298	0
+	+	299	22
+
+> ~/esmf-test-artifacts/.git/MERGE_MSG
+	*	1617887039	0
 	"	1	0
 
-> ~/cime/scripts/tests/log.reg
-	*	1581446663	0
-	"	1756	0
+> ~/esmf-test-artifacts/develop/chianti/gfortran/9.3.0/O/openmpi/3.1.3-gcc-9.3.0/out/build.log
+	*	1617883561	0
+	"	5540	1
 
-> ~/.cime/config_machines.xml
-	*	1581443458	0
-	"	52	24
-	^	52	25
-	.	52	24
-	+	52	25
-	+	57	26
-	+	60	19
-	+	63	35
-	+	64	31
-	+	65	37
-	+	66	30
-	+	67	30
-	+	68	27
-	+	72	37
-	+	83	164
-	+	84	31
-	+	85	0
-	+	84	35
-	+	86	27
-	+	87	0
-	+	84	161
-	+	85	158
-	+	86	157
-	+	87	162
-	+	88	164
-	+	95	44
-	+	96	43
-	+	97	0
-	+	52	25
-	+	59	0
-	+	52	24
-
-> ~/cime/README.md
-	*	1581433310	0
+> ~/work-notes/__MRU_Files__
+	*	1617829940	0
 	"	2	0
-
-> ~/cime/scripts/lib/CIME/XML/generic_xml.py
-	*	1581432193	0
-	"	278	0
-
-> ~/cime/src/drivers/mct/cime_config/config_pes.xml
-	*	1581430399	0
-	"	1	0
-
-> ~/cime/config/ufs/machines/config_machines.xml
-	*	1581363019	0
-	"	51	4
-
-> ~/cime/config/ufs/config_files.xml
-	*	1581362325	0
-	"	566	0
-
-> ~/cime/scripts/tests/scripts_regression_tests.py
-	*	1581360654	0
-	"	38	0
-
-> ~/cime/scripts/tests/CMakeLists.txt
-	*	1581360624	0
-	"	20	0
-
-> ~/cime/scripts/tests/build/__MRU_Files__
-	*	1581360609	0
-	"	1	0
 	.	101	0
-	+	101	0
-
-> ~/cime/config/ufs/machines/userdefined_laptop_template/config_machines.xml
-	*	1581359945	0
-	"	29	29
-	^	29	30
-	.	29	29
-	+	3	24
-	+	7	27
-	+	8	30
-	+	9	15
-	+	11	21
-	+	20	29
-	+	21	26
-	+	22	29
-	+	24	18
-	+	27	0
-	+	29	29
-
-> ~/cime/config/xml_schemas/config_machines.xsd
-	*	1581359716	0
-	"	40	2
-
-> ~/kyle/ufs/.git/COMMIT_EDITMSG
-	*	1581011164	0
-	"	1	0
-	^	2	19
-	.	2	17
-	+	1	33
-	+	2	17
-
-> ~/kyle/ufs/NEMS/src/module_NEMS_Rusage.F90
-	*	1581006352	0
-	"	690	7
-	.	690	0
-	+	690	0
-
-> ~/.ssh/config
-	*	1580994616	0
-	"	92	17
-	^	92	18
-	.	92	16
-	+	91	0
-	+	83	19
-	+	88	25
-	+	90	0
-	+	91	23
-	+	92	16
-
-> ~/kyle/ufs/setvars
-	*	1580927444	0
-	"	6	24
-	^	6	25
-	.	6	21
-	+	7	14
-	+	14	34
-	+	15	39
-	+	14	36
-	+	15	41
-	+	6	21
-
-> ~/kyle/NCEPLIBS-external/README.md
-	*	1580926173	0
-	"	71	0
-
-> ~/simple-test-case/model_configure
-	*	1580852330	0
-	"	1	0
-
-> ~/simple-test-case/input.nml
-	*	1580852322	0
-	"	1	0
-
-> ~/kyle/NCgh/NCEPLIBS-post/sorc/ncep_post.fd/CMakeLists.txt
-	*	1580845484	0
-	"	199	25
-	^	199	67
-	.	199	25
-	+	208	284
-	+	208	83
-	+	208	249
-	+	208	56
-	+	208	89
-	+	208	233
-	+	208	39
-	+	208	53
-	+	211	229
-	+	208	0
-	+	208	51
-	+	211	215
-	+	208	0
-	+	211	76
-	+	211	260
-	+	209	71
-	+	208	53
-	+	211	0
-	+	208	51
-	+	209	96
-	+	208	31
-	+	211	185
-	+	208	0
-	+	211	78
-	+	210	42
-	+	202	90
-	+	211	244
-	+	208	0
-	+	197	0
-	+	202	61
-	+	211	44
-	+	197	72
-	+	211	55
-	+	202	69
-	+	211	61
-	+	211	200
-	+	202	34
-	+	202	60
-	+	202	0
-	+	211	69
-	+	212	0
-	+	211	142
-	+	197	0
-	+	202	0
-	+	202	25
-	+	202	57
-	+	198	91
-	+	202	0
-	+	198	34
-	+	198	38
-	+	200	0
-	+	198	44
-	+	196	42
-	+	198	0
-	+	202	0
-	+	211	33
-	+	196	0
-	+	202	0
-	+	206	57
-	+	207	0
-	+	194	0
-	+	195	47
-	+	197	94
-	+	197	0
-	+	197	95
-	+	201	0
-	+	197	0
-	+	219	0
-	+	204	0
-	+	205	0
-	+	206	0
-	+	201	72
-	+	205	215
-	+	204	6
-	+	203	39
-	+	201	73
-	+	204	0
-	+	205	211
-	+	201	91
-	+	203	68
-	+	203	211
-	+	199	25
-
-> ~/kyle/NCgh/NCEPLIBS-post/sorc/ncep_post.fd/CMakeLists.txt.mod
-	*	1580842427	0
-	"	200	0
-
-> ~/kyle/NCgh/NCEPLIBS-post/CMakeLists.txt
-	*	1580841076	0
-	"	94	0
-
-> ~/kyle/NCgh/NCEPLIBS-sp/CMakeLists.txt
-	*	1580841053	0
-	"	49	0
-
-> ~/kyle/NCEPLIBS/NCEPLIBS-post/sorc/ncep_post.fd/CMakeLists.txt
-	*	1580840511	0
-	"	198	0
-
-> ~/kyle/NCgh/__MRU_Files__
-	*	1580840458	0
-	"	8	0
-	.	101	0
-	+	398	0
 	+	299	0
 	+	200	0
 	+	101	0
 
-> ~/kyle/NCgh/NCEPLIBS-bacio/CMakeLists.txt
-	*	1580840444	0
-	"	52	4
-	.	75	0
-	+	75	0
+> ~/bin/gitpush
+	*	1617829933	0
+	"	1	34
+	^	1	35
+	.	1	34
+	+	1	35
+	+	2	0
+	+	1	34
 
-> ~/kyle/NCgh/NCEPLIBS-g2/CMakeLists.txt
-	*	1580831641	0
-	"	78	0
-	^	16	0
-	.	15	7
-	+	5	0
-	+	15	7
+> ~/.vimrc
+	*	1617829720	0
+	"	72	92
+	^	72	40
+	.	72	39
+	+	73	60
+	+	72	0
+	+	73	0
+	+	72	39
 
-> ~/kyle/NCgh/NCEPLIBS-crtm/CMakeLists.txt
-	*	1580831038	0
-	"	53	38
-	.	53	0
-	+	53	0
+> ~/bin/gitppush
+	*	1617829432	0
+	"	1	0
 
-> ~/kyle/NCgh/NCEPLIBS-bufr/CMakeLists.txt
-	*	1580830885	0
-	"	115	2
-
-> ~/kyle/NCgh/build/NCEPLIBS-post/sorc/ncep_post.fd/CMakeFiles/ncep_post.dir/link.txt
-	*	1580830228	0
-	"	1	4014
-
-> ~/kyle/NCgh/build/__MRU_Files__
-	*	1580830208	0
+> ~/.gitconfig
+	*	1617376552	0
 	"	4	0
+
+> ~/.ssh/config
+	*	1617336222	0
+	"	65	11
+	.	65	11
+	+	65	11
+
+> /var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Logs/Plex Media Server.log
+	*	1617221977	0
+	"	801	0
+
+> ~/__MRU_Files__
+	*	1617221976	0
+	"	2	0
 	.	101	0
+	+	3764	0
+	+	3665	0
+	+	3566	0
+	+	3467	0
+	+	3368	0
+	+	3269	0
+	+	3170	0
+	+	3071	0
+	+	2972	0
+	+	2873	0
+	+	2774	0
+	+	2675	0
+	+	2576	0
+	+	2477	0
+	+	2378	0
+	+	2279	0
+	+	2180	0
+	+	2081	0
+	+	1982	0
+	+	1883	0
+	+	1784	0
+	+	1685	0
+	+	1586	0
+	+	1487	0
+	+	1388	0
+	+	1289	0
+	+	1190	0
+	+	1091	0
+	+	992	0
+	+	893	0
+	+	794	0
 	+	695	0
 	+	596	0
 	+	497	0
@@ -799,339 +638,1125 @@ $
 	+	200	0
 	+	101	0
 
-> ~/kyle/NCgh/build/cmd
-	*	1580830071	0
-	"	2	1947
-	^	3	0
-	.	2	2781
-	+	1	3636
-	+	1	253
-	+	2	2781
+> /var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Logs/Plex Tuner Service.log
+	*	1617156885	0
+	"	75	0
 
-> ~/__MRU_Files__
-	*	1580829131	0
-	"	1	0
-	.	101	0
-	+	101	0
+> /var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Logs/PMS Plugin Logs/com.plexapp.system.log
+	*	1617156828	0
+	"	413	0
 
-> ~/kyle/NCgh/NCEPLIBS-post/__MRU_Files__
-	*	1580827465	0
+> ~/jk
+	*	1617156238	0
 	"	4	0
+	^	4	0
+	.	3	2
+	+	3	2
+
+> ~/ufs-weather-model/FV3/atmos_model.F90
+	*	1616798166	0
+	"	1989	6
+	.	843	0
+	+	2046	57
+	+	2053	0
+	+	673	29
+	+	669	0
+	+	673	0
+	+	840	0
+	+	843	0
+	+	669	0
+	+	673	0
+	+	840	0
+	+	843	0
+	+	277	0
+	+	673	0
+	+	267	0
+	+	280	31
+	+	267	0
+	+	258	0
+	+	280	0
+	+	360	0
+	+	309	0
+	+	258	0
+	+	309	0
+	+	322	0
+	+	336	0
+	+	358	0
+	+	336	0
+	+	359	0
+	+	258	0
+	+	304	0
+	+	327	0
+	+	341	0
+	+	354	0
+	+	359	0
+	+	843	0
+	+	359	0
+	+	345	0
+	+	309	0
+	+	359	0
+	+	351	0
+	+	340	0
+	+	326	0
+	+	331	0
+	+	309	0
+	+	326	0
+	+	330	0
+	+	327	0
+	+	330	0
+	+	326	0
+	+	331	0
+	+	327	0
+	+	331	0
+	+	327	0
+	+	331	0
+	+	328	0
+	+	327	0
+	+	843	0
+	+	327	0
+	+	328	0
+	+	327	56
+	+	327	0
+	+	328	0
+	+	327	0
+	+	328	0
+	+	327	0
+	+	328	0
+	+	327	0
+	+	328	0
+	+	327	0
+	+	328	0
+	+	669	0
+	+	840	0
+	+	843	0
+	+	327	0
+	+	328	0
+	+	669	0
+	+	673	0
+	+	840	0
+	+	843	0
+	+	2046	0
+	+	2047	0
+	+	668	28
+	+	673	28
+	+	839	0
+	+	843	0
+	+	839	27
+	+	673	0
+	+	843	0
+	+	1959	96
+	+	1992	0
+	+	1994	61
+	+	1959	9
+	+	1994	67
+	+	2157	0
+	+	1994	0
+	+	2157	0
+	+	1959	0
+	+	668	0
+	+	673	0
+	+	839	0
+	+	843	0
+
+> ~/fv3-bundle/__MRU_Files__
+	*	1616790851	0
+	"	13	0
+	.	101	0
+	+	200	0
+	+	101	0
+
+> ~/fv3-bundle/fv3-jedi/test/Data/ModelDirs/ufs/ccpp/input.nml
+	*	1616790465	0
+	"	188	7
+	^	180	29
+	.	180	28
+	+	185	25
+	+	186	25
+	+	187	25
+	+	155	25
+	+	15	44
+	+	185	25
+	+	186	25
+	+	187	25
+	+	185	25
+	+	186	25
+	+	187	25
+	+	185	25
+	+	186	25
+	+	187	25
+	+	185	25
+	+	186	25
+	+	185	25
+	+	187	25
+	+	188	0
+	+	180	28
+
+> ~/fv3-bundle/CMakeLists.txt
+	*	1616789797	0
+	"	71	40
+
+> ~/fv3-bundle/fv3-jedi/src/mains/fv3jediEnsHofX.cc
+	*	1616782916	0
+	"	10	0
+	^	10	2
+	.	10	0
+	+	11	0
+	+	10	0
+
+> ~/fv3-bundle/fv3-jedi/src/fv3jedi/Model/ufs/fv3jedi_ufs_mod.F90
+	*	1616781922	0
+	"	294	34
+	^	488	0
+	.	291	0
+	+	150	0
+	+	126	0
+	+	127	0
+	+	128	0
+	+	129	0
+	+	130	0
+	+	131	0
+	+	128	0
+	+	129	0
+	+	130	0
+	+	131	0
+	+	132	0
+	+	133	0
+	+	128	0
+	+	127	0
+	+	126	0
+	+	127	0
+	+	137	0
+	+	138	0
+	+	127	64
+	+	126	0
+	+	128	0
+	+	129	0
+	+	130	0
+	+	131	0
+	+	132	0
+	+	133	0
+	+	137	0
+	+	127	63
+	+	134	0
+	+	135	0
+	+	134	53
+	+	134	54
+	+	134	53
+	+	135	53
+	+	136	46
+	+	134	39
+	+	128	0
+	+	135	7
+	+	134	7
+	+	126	7
+	+	135	7
+	+	134	7
+	+	126	0
+	+	134	0
+	+	135	0
+	+	123	100
+	+	368	0
+	+	370	0
+	+	376	0
+	+	384	0
+	+	401	0
+	+	412	79
+	+	412	0
+	+	414	0
+	+	420	0
+	+	412	0
+	+	411	0
+	+	412	6
+	+	420	0
+	+	355	0
+	+	356	0
+	+	525	0
+	+	423	31
+	+	23	0
+	+	46	0
+	+	113	0
+	+	114	0
+	+	133	0
+	+	149	0
+	+	168	0
+	+	169	0
+	+	255	0
+	+	265	0
+	+	268	0
+	+	332	0
+	+	274	0
+	+	332	0
+	+	336	0
+	+	337	0
+	+	336	0
+	+	337	0
+	+	339	0
+	+	388	0
+	+	397	0
+	+	399	0
+	+	490	0
+	+	485	25
+	+	486	0
+	+	487	0
+	+	486	18
+	+	487	24
+	+	569	0
+	+	570	0
+	+	581	0
+	+	577	0
+	+	581	0
+	+	585	0
+	+	274	0
+	+	291	0
+
+> ~/fv3-bundle/fv3-jedi/src/fv3jedi/Model/ufs/fv3jedi_ufs_mod_REMOTE_30692.F90
+	*	1616781689	0
+	"	263	0
+
+> ~/fv3-bundle/fv3-jedi/src/fv3jedi/Model/ufs/fv3jedi_ufs_mod_BASE_30692.F90
+	*	1616781688	0
+	"	87	0
+
+> ~/fv3-bundle/fv3-jedi/src/fv3jedi/Model/ufs/fv3jedi_ufs_mod_LOCAL_30692.F90
+	*	1616781686	0
+	"	277	0
+
+> ~/ufs-weather-model/.git/COMMIT_EDITMSG
+	*	1616781340	0
+	"	1	54
+	^	1	55
+	.	1	54
+	+	1	54
+
+> ~/ufs-weather-model/.gitmodules
+	*	1616781282	0
+	"	1	12
+
+> ~/ufs-weather-model/.git/modules/FV3/COMMIT_EDITMSG
+	*	1616781185	0
+	"	1	24
+	^	1	25
+	.	1	24
+	+	1	24
+
+> ~/ufs-weather-model/FV3/.gitmodules
+	*	1616781137	0
+	"	12	21
+	^	12	22
+	.	12	21
+	+	11	37
+	+	12	21
+
+> ~/ufs-weather-model/.git/modules/FV3/modules/ccpp/physics/COMMIT_EDITMSG
+	*	1616780913	0
+	"	1	28
+	^	1	29
+	.	1	28
+	+	1	28
+
+> ~/fv3-bundle/fv3-jedi/.git/COMMIT_EDITMSG
+	*	1616779598	0
+	"	1	30
+	^	1	31
+	.	1	30
+	+	1	30
+
+> ~/ufs-weather-model/FV3/ccpp/physics/physics/GFS_surface_generic.F90
+	*	1616779296	0
+	"	293	12
+	.	289	0
+	+	268	72
+	+	268	22
+	+	268	0
+	+	268	14
+	+	261	25
+	+	268	14
+	+	277	0
+	+	268	0
+	+	261	0
+	+	268	0
+	+	286	64
+	+	257	18
+	+	269	23
+	+	279	18
+	+	286	0
+	+	285	18
+	+	289	0
+
+> ~/fv3-bundle/fv3-jedi/test/lst2
+	*	1616778013	0
+	"	5	9
+
+> ~/fv3-bundle/fv3-jedi/test/lst
+	*	1616777011	0
+	"	3	5
+
+> ~/ufs-weather-model/FV3/vars
+	*	1616775557	0
+	"	20	0
+	^	20	0
+	.	19	2
+	+	19	2
+
+> ~/fv3-bundle/fv3-jedi/test/Data/ModelDirs/ufs/ccpp/PET0.ESMF_LogFile
+	*	1616775149	0
+	"	1	0
+
+> ~/ufs-weather-model/build/__MRU_Files__
+	*	1616774892	0
+	"	3	0
+	.	101	0
+	+	3467	0
+	+	3368	0
+	+	3269	0
+	+	3170	0
+	+	3071	0
+	+	2972	0
+	+	2873	0
+	+	2774	0
+	+	2675	0
+	+	2576	0
+	+	2477	0
+	+	2378	0
+	+	2279	0
+	+	2180	0
+	+	2081	0
+	+	1982	0
+	+	1883	0
+	+	1784	0
+	+	1685	0
+	+	1586	0
+	+	1487	0
+	+	1388	0
+	+	1289	0
+	+	1190	0
+	+	1091	0
+	+	992	0
+	+	893	0
+	+	794	0
+	+	695	0
+	+	596	0
+	+	497	0
+	+	398	0
+	+	299	0
+	+	200	0
+	+	101	0
+
+> ~/fv3-bundle/build/__MRU_Files__
+	*	1616773929	0
+	"	9	0
+	.	101	0
+	+	1388	0
+	+	1289	0
+	+	1190	0
+	+	1091	0
+	+	992	0
+	+	893	0
+	+	794	0
+	+	695	0
+	+	596	0
+	+	497	0
+	+	398	0
+	+	299	0
+	+	200	0
+	+	101	0
+
+> ~/fv3-bundle/fv3-jedi/test/__MRU_Files__
+	*	1616772523	0
+	"	6	0
+	.	101	0
+	+	5546	0
+	+	5447	0
+	+	5348	0
+	+	5249	0
+	+	5150	0
+	+	5051	0
+	+	4952	0
+	+	4853	0
+	+	4754	0
+	+	4655	0
+	+	4556	0
+	+	4457	0
+	+	4358	0
+	+	4259	0
+	+	4160	0
+	+	4061	0
+	+	3962	0
+	+	3863	0
+	+	3764	0
+	+	3665	0
+	+	3566	0
+	+	3467	0
+	+	3368	0
+	+	3269	0
+	+	3170	0
+	+	3071	0
+	+	2972	0
+	+	2873	0
+	+	2774	0
+	+	2675	0
+	+	2576	0
+	+	2477	0
+	+	2378	0
+	+	2279	0
+	+	2180	0
+	+	2081	0
+	+	1982	0
+	+	1883	0
+	+	1784	0
+	+	1685	0
+	+	1586	0
+	+	1487	0
+	+	1388	0
+	+	1289	0
+	+	1190	0
+	+	1091	0
+	+	992	0
+	+	893	0
+	+	794	0
+	+	695	0
+	+	596	0
+	+	497	0
+	+	398	0
+	+	299	0
+	+	200	0
+	+	101	0
+
+> ~/ufs-weather-model/FV3/cpl/module_cap_cpl.F90
+	*	1616772302	0
+	"	180	12
+	^	139	66
+	.	139	54
+	+	464	0
+	+	384	0
+	+	416	6
+	+	417	6
+	+	416	6
+	+	417	6
+	+	418	6
+	+	416	75
+	+	139	54
+
+> ~/fv3-bundle/fv3-jedi/test/Data/ModelDirs/ufs/c96/PET0.ESMF_LogFile
+	*	1616771870	0
+	"	178	0
+
+> ~/fv3-bundle/fv3-jedi/test/Data/ModelDirs/ufs/c96/model_configure
+	*	1616771852	0
+	"	6	0
+	^	7	21
+	.	7	18
+	+	20	13
+	+	2	13
+	+	28	14
+	+	38	19
+	+	2	13
+	+	28	14
+	+	2	13
+	+	23	26
+	+	38	18
+	+	2	13
+	+	28	15
+	+	23	27
+	+	6	11
+	+	7	18
+
+> ~/fv3-bundle/fv3-jedi/test/Data/ModelDirs/ufs/c96/input.nml
+	*	1616771842	0
+	"	126	2
+	^	10	38
+	.	128	20
+	+	43	17
+	+	44	0
+	+	126	14
+	+	128	22
+	+	129	0
+	+	126	12
+	+	127	20
+	+	128	20
+	+	127	20
+	+	128	20
+	+	126	12
+	+	110	21
+	+	126	12
+	+	10	36
+	+	126	12
+	+	10	37
+	+	127	20
+	+	128	20
+
+> ~/fv3-bundle/fv3-jedi/src/fv3jedi/CMakeLists.txt
+	*	1616770479	0
+	"	228	0
+	.	229	0
+	+	228	44
+	+	216	17
+	+	228	0
+	+	216	0
+	+	229	0
+
+> ~/ufs-weather-model/FV3/ccpp/driver/CCPP_driver.F90
+	*	1616705018	0
+	"	188	20
+	^	190	34
+	.	200	0
+	+	1	0
+	+	182	118
+	+	65	3
+	+	182	0
+	+	189	0
+	+	198	0
+	+	200	0
+	+	178	0
+	+	172	0
+	+	171	0
+	+	170	0
+	+	169	0
+	+	173	0
+	+	174	0
+	+	175	0
+	+	177	0
+	+	188	1
+	+	190	33
+	+	188	0
+	+	190	0
+	+	188	0
+	+	190	0
+	+	169	0
+	+	170	0
+	+	171	0
+	+	172	0
+	+	173	0
+	+	174	0
+	+	175	0
+	+	177	0
+	+	178	0
+	+	198	0
+	+	200	0
+
+> ~/ufs-weather-model/FMS/__MRU_Files__
+	*	1616704537	0
+	"	2	0
+	.	101	0
+	+	299	0
+	+	200	0
+	+	101	0
+
+> ~/ufs-weather-model/FV3/atmos_cubed_sphere/tools/fv_diagnostics.F90
+	*	1616704166	0
+	"	1871	15
+	.	1861	0
+	+	5027	31
+	+	5030	0
+	+	5037	0
+	+	5040	0
+	+	5041	0
+	+	5042	0
+	+	5037	0
+	+	6386	29
+	+	6386	22
+	+	142	77
+	+	6386	0
+	+	142	77
+	+	558	0
+	+	1847	0
+	+	1846	6
+	+	1861	74
+	+	1981	34
+	+	1861	0
+	+	1855	73
+	+	1974	0
+	+	1981	0
+	+	1855	0
+	+	1974	0
+	+	1981	0
+	+	1861	0
+
+> ~/fv3-bundle/fv3-jedi/test/Data/ModelDirs/ufs/ccpp/__MRU_Files__
+	*	1616704067	0
+	"	3	0
+	.	101	0
+	+	1190	0
+	+	1091	0
+	+	992	0
+	+	893	0
+	+	794	0
+	+	695	0
+	+	596	0
+	+	497	0
+	+	398	0
+	+	299	0
+	+	200	0
+	+	101	0
+
+> ~/fv3-bundle/fv3-jedi/test/Data/ModelDirs/ufs/ccpp/junk
+	*	1616704043	0
+	"	1715	0
+
+> ~/ufs-weather-model/FV3/atmos_cubed_sphere/model/fv_arrays.F90
+	*	1616703730	0
+	"	1581	20
+	^	1581	37
+	.	1581	36
+	+	1581	36
+
+> ~/ufs-weather-model/FMS/sat_vapor_pres/sat_vapor_pres_k.F90
+	*	1616703443	0
+	"	1325	25
+	.	1325	0
+	+	1325	0
+	+	1326	40
+	+	1330	32
+	+	1326	0
+	+	1325	0
+
+> ~/fv3-bundle/fv3-jedi/test/ccpp.log
+	*	1616702900	0
+	"	784	0
+
+> ~/ufs-weather-model/FMS/sat_vapor_pres/sat_vapor_pres.F90
+	*	1616702811	0
+	"	1326	5
+	^	153	35
+	.	153	34
+	+	537	36
+	+	2507	23
+	+	2493	21
+	+	2524	21
+	+	2546	21
+	+	2526	8
+	+	2524	49
+	+	2533	0
+	+	2532	6
+	+	2533	48
+	+	153	34
+
+> ~/ufs-weather-model/FV3/ccpp/physics/physics/GFS_stochastics.F90
+	*	1616702759	0
+	"	234	0
+	^	228	30
+	.	228	29
+	+	105	23
+	+	105	0
+	+	102	26
+	+	160	22
+	+	231	22
+	+	102	0
+	+	161	0
+	+	162	0
+	+	232	0
+	+	160	0
+	+	105	15
+	+	158	0
+	+	159	0
+	+	160	0
+	+	161	0
+	+	229	0
+	+	230	0
+	+	231	0
+	+	232	0
+	+	156	29
+	+	157	15
+	+	227	0
+	+	156	28
+	+	157	28
+	+	227	29
+	+	228	29
+
+> ~/fv3-bundle/fv3-jedi/test/inps
+	*	1616702278	0
+	"	4	12
+	^	4	13
+	.	4	12
+	+	10	28
+	+	8	59
+	+	3	26
+	+	4	0
+	+	5	0
+	+	4	12
+
+> ~/ufs-weather-model/build/FV3/ccpp/physics/ccpp_FV3_GFS_2017_couplednsst_stochastics_cap.F90
+	*	1616701426	0
+	"	146	23
+	^	131	40
+	.	131	0
+	+	132	33
+	+	153	31
+	+	132	0
+	+	132	32
+	+	153	0
+	+	153	31
+	+	132	0
+	+	153	0
+	+	149	0
+	+	130	0
+	+	149	0
+	+	131	0
+
+> ~/ufs-weather-model/build/FV3/ccpp/physics/ccpp_static_api.F90
+	*	1616701096	0
+	"	9087	0
+	^	9086	43
+	.	9086	42
+	+	9065	0
+	+	9064	63
+	+	9086	42
+
+> ~/ufs-weather-model/FV3/ccpp/__MRU_Files__
+	*	1616699510	0
+	"	1	0
+	.	101	0
+	+	299	0
+	+	200	0
+	+	101	0
+
+> ~/fv3-bundle/fv3-jedi/test/ccpp.log.runs
+	*	1616698927	0
+	"	14885	1
+
+> ~/ufs-weather-model/FV3/__MRU_Files__
+	*	1616697077	0
+	"	5	0
+	.	101	0
+	+	4655	0
+	+	4556	0
+	+	4457	0
+	+	4358	0
+	+	4259	0
+	+	4160	0
+	+	4061	0
+	+	3962	0
+	+	3863	0
+	+	3764	0
+	+	3665	0
+	+	3566	0
+	+	3467	0
+	+	3368	0
+	+	3269	0
+	+	3170	0
+	+	3071	0
+	+	2972	0
+	+	2873	0
+	+	2774	0
+	+	2675	0
+	+	2576	0
+	+	2477	0
+	+	2378	0
+	+	2279	0
+	+	2180	0
+	+	2081	0
+	+	1982	0
+	+	1883	0
+	+	1784	0
+	+	1685	0
+	+	1586	0
+	+	1487	0
+	+	1388	0
+	+	1289	0
+	+	1190	0
+	+	1091	0
+	+	992	0
+	+	893	0
+	+	794	0
+	+	695	0
+	+	596	0
+	+	497	0
+	+	398	0
+	+	299	0
+	+	200	0
+	+	101	0
+
+> ~/ufs-weather-model/FV3/module_fcst_grid_comp.F90
+	*	1616695203	0
+	"	728	0
+	.	750	0
+	+	406	0
+	+	407	0
+	+	541	0
+	+	543	0
+	+	551	0
+	+	550	0
+	+	551	0
+	+	674	0
+	+	538	0
+	+	382	44
+	+	386	38
+	+	471	37
+	+	543	0
+	+	545	0
+	+	546	0
+	+	547	0
+	+	552	50
+	+	390	0
+	+	68	54
+	+	390	0
+	+	471	0
+	+	549	0
+	+	539	0
+	+	549	0
+	+	539	0
+	+	549	0
+	+	613	0
+	+	682	0
+	+	732	0
+	+	754	0
+	+	743	0
+	+	747	0
+	+	749	0
+	+	751	0
+	+	749	0
+	+	750	0
+	+	749	0
+	+	750	0
+
+> ~/fv3-bundle/fv3-jedi/test/Data/ModelDirs/ufs/ccpp/model_configure
+	*	1616685168	0
+	"	16	0
+	^	16	27
+	.	16	26
+	+	10	26
+	+	16	26
+
+> ~/ufs-weather-model/CMakeLists.txt
+	*	1616675691	0
+	"	45	0
+	^	24	23
+	.	24	22
+	+	24	22
+
+> ~/fv3-bundle/fv3-jedi/test/Data/ModelDirs/ufs/ccpp/test.log
+	*	1616620006	0
+	"	1729	0
+
+> ~/ufs-weather-model/FV3/cpl/module_cplfields.F90
+	*	1616618891	0
+	"	93	0
+	^	123	38
+	.	123	37
+	+	215	42
+	+	217	46
+	+	222	54
+	+	221	45
+	+	224	23
+	+	227	55
+	+	236	33
+	+	231	39
+	+	233	27
+	+	240	41
+	+	242	0
+	+	240	23
+	+	221	35
+	+	225	8
+	+	20	48
+	+	21	8
+	+	30	0
+	+	31	0
+	+	20	0
+	+	22	8
+	+	16	58
+	+	109	21
+	+	123	37
+
+> ~/gfortran_9.3.0_openmpi_g/test_12346.log
+	*	1616608650	0
+	"	10658	0
+
+> ~/ufs-weather-model/FV3/ccpp/physics/__MRU_Files__
+	*	1616598733	0
+	"	6	0
+	.	101	0
+	+	200	0
+	+	101	0
+
+> ~/ufs-weather-model/FV3/ccpp/physics/physics/docs/pdftxt/CPT_adv_suite.txt
+	*	1616598473	0
+	"	1	0
+
+> ~/ufs-weather-model/FV3/ccpp/data/GFS_typedefs.meta
+	*	1616598378	0
+	"	2460	1
+
+> ~/ufs-weather-model/FV3/ccpp/data/CCPP_typedefs.F90
+	*	1616598350	0
+	"	1	0
+
+> ~/ufs-weather-model/build/FV3/ccpp/physics/ccpp_FV3_GFS_2017_couplednsst_physics_cap.F90
+	*	1616598255	0
+	"	827	18
+
+> ~/ufs-weather-model/build/FV3/ccpp/physics/__MRU_Files__
+	*	1616598127	0
+	"	6	0
 	.	101	0
 	+	101	0
 
-> ~/kyle/NCgh/build/list
-	*	1580826940	0
-	"	2	807
-	^	2	3439
-	.	2	3438
-	+	2	3438
+> ~/ufs-weather-model/FV3/ccpp/data/GFS_typedefs.F90
+	*	1616597569	0
+	"	3669	4
+	^	3668	46
+	.	3668	45
+	+	2960	49
+	+	2961	49
+	+	2962	49
+	+	3668	45
 
-> ~/kyle/NCgh/NCEPLIBS-grib_util/sorc/cnvgrib.fd/CMakeLists.txt
-	*	1580824740	0
-	"	10	4
-	^	9	16
-	.	11	7
-	+	10	0
-	+	9	15
-	+	11	7
-
-> ~/kyle/NCgh/NCEPLIBS-grib_util/sorc/cnvgrib.fd/makefile
-	*	1580824724	0
+> ~/ufs-weather-model/FV3/ccpp/data/CCPP_data.F90
+	*	1616597370	0
 	"	1	0
 
-> ~/kyle/NCgh/NCEPLIBS-grib_util/CMakeLists.txt
-	*	1580824563	0
-	"	60	0
-	.	16	0
-	+	5	0
-	+	44	0
-	+	16	0
+> ~/ufs-weather-model/FV3/ccpp/physics/physics/docs/pdftxt/suite_input.nml.txt
+	*	1616597252	0
+	"	30	8
 
-> ~/kyle/NCgh/CMakeLists.txt
-	*	1580824442	0
-	"	9	0
-	^	6	0
-	.	9	0
-	+	21	0
-	+	4	0
-	+	5	24
-	+	20	0
-	+	9	0
+> ~/ufs-weather-model/FV3/ccpp/framework/README.md
+	*	1616596487	0
+	"	279	3
 
-> ~/kyle/NCEPLIBS/NCEPLIBS-post/CMakeLists.txt
-	*	1580823715	0
-	"	94	0
+> ~/ufs-weather-model/FV3/ccpp/physics/CMakeLists.txt
+	*	1616596410	0
+	"	3	0
 
-> ~/kyle/NCEPLIBS/NCEPLIBS-sfcio/CMakeLists.txt
-	*	1580823702	0
-	"	56	0
+> ~/ufs-weather-model/build/FV3/ccpp/physics/ccpp_FV3_GFS_2017_coupled_physics_cap.F90
+	*	1616596329	0
+	"	139	0
 
-> ~/kyle/ufs/list
-	*	1580426224	0
-	"	22	1
-	.	1	0
-	+	1	54
-	+	1	0
-	+	2	0
-	+	23	0
-	+	33	0
-	+	1	0
-	+	2	0
+> ~/esmf-test-artifacts/ESMF_8_1_0/chianti/gfortran/9.3.0/g/openmpi/3.1.3-gcc-9.3.0/summary.dat
+	*	1616595305	0
+	"	47	0
+
+> ~/esmf-test-artifacts/ESMF_8_1_0/chianti/gfortran/9.3.0/O/openmpi/3.1.3-gcc-9.3.0/summary.dat
+	*	1616595293	0
+	"	101	0
+
+> ~/esmf-test-scripts/rn_ch.sh
+	*	1616591273	0
+	"	7	233
+	^	7	234
+	.	7	233
+	+	3	33
+	+	4	17
 	+	3	0
-	+	10	0
-	+	1	0
+	+	7	233
 
-> ~/kyle/ufs/cmake/FindESMF.cmake
-	*	1580425924	0
-	"	47	38
-	.	37	0
-	+	37	0
+> ~/esmf-test-scripts/get-results.py
+	*	1616527685	0
+	"	137	0
+	^	104	81
+	.	137	0
+	+	104	72
+	+	121	0
+	+	122	0
+	+	121	50
+	+	140	0
+	+	137	0
+	+	104	80
+	+	140	0
+	+	137	0
+	o	104	61
 
-> ~/kyle/ufs/.gitmodules
-	*	1580425496	0
-	"	1	0
-	.	1	0
-	+	1	0
+> ~/esmf-test-artifacts/release/8.1.0/chianti/gfortran/9.3.0/g/openmpi/3.1.3-gcc-9.3.0/summary.dat
+	*	1616527067	0
+	"	188	0
 
-> ~/kyle/ufs/tests/tests/fv3_gfs_v16beta_LOCAL_30045
-	*	1580425008	0
-	"	1	0
-
-> ~/kyle/ufs/tests/tests/fv3_gfs_v16beta
-	*	1580425006	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/kyle/ufs/tests/tests/fv3_gfs_v16beta_REMOTE_30045
-	*	1580425003	0
+> ~/gfortran_9.3.0_openmpi_g/module-build.log
+	*	1616527038	0
 	"	1	0
 
-> ~/kyle/ufs/tests/tests/fv3_gfs_v16beta_BASE_30045
-	*	1580425000	0
+> ~/gfortran_9.3.0_openmpi_g/__MRU_Files__
+	*	1616526025	0
+	"	1	0
+	.	101	0
+	+	101	0
+
+> ~/gfortran_9.3.0_openmpi_g/get-results.py
+	*	1616526020	0
 	"	1	0
 
-> ~/kyle/ufs/tests/tests/fv3_gfs_v15p2_LOCAL_30045
-	*	1580424993	0
+> ~/fv3-bundle/fv3-jedi/test/testinput/model_ccpp.yaml
+	*	1616516500	0
+	"	23	21
+	^	23	23
+	.	23	21
+	+	2	0
+	+	23	22
+	+	15	11
+	+	23	22
+	+	15	11
+	+	23	21
+
+> ~/gfortran_9.3.0_openmpi_g/src/addon/NUOPC/tests/ESMF_NUOPC_UTest.F90
+	*	1616516133	0
+	"	531	23
+
+> ~/fv3-bundle/fv3-jedi/test/Data/ModelDirs/ufs/c96/test.log
+	*	1616514715	0
+	"	161	1
+
+> ~/esmf-test-scripts/.git/MERGE_MSG
+	*	1616509811	0
 	"	1	0
 
-> ~/kyle/ufs/tests/tests/fv3_gfs_v15p2
-	*	1580424991	0
-	"	1	0
-	.	1	0
-	+	1	0
+> ~/ufs-weather-model/FV3/fv3_cap.F90
+	*	1616437785	0
+	"	512	24
+	^	68	21
+	.	961	0
+	+	1123	0
+	+	1211	0
+	+	1123	0
+	+	1211	0
+	+	1123	0
+	+	1210	0
+	+	1211	0
+	+	1222	0
+	+	1226	0
+	+	1227	0
+	+	215	0
+	+	213	0
+	+	214	25
+	+	64	0
+	+	961	29
+	+	68	33
+	+	69	0
+	+	68	20
+	+	961	0
 
-> ~/kyle/ufs/tests/tests/fv3_gfs_v15p2_REMOTE_30045
-	*	1580424987	0
-	"	1	0
-
-> ~/kyle/ufs/tests/tests/fv3_gfs_v15p2_BASE_30045
-	*	1580424984	0
-	"	1	0
-
-> ~/kyle/ufs/tests/tests/fv3_ccpp_gfs_v16beta_restart_BASE_25928
-	*	1580424881	0
-	"	7	0
-
-> ~/kyle/ufs/tests/tests/fv3_ccpp_gfs_v16beta_restart_LOCAL_25928
-	*	1580424878	0
-	"	7	0
-
-> ~/kyle/ufs/tests/tests/fv3_ccpp_gfs_v16beta_restart
-	*	1580424875	0
-	"	7	0
-
-> ~/kyle/ufs/tests/tests/fv3_ccpp_gfs_v16beta_restart_REMOTE_25928
-	*	1580424863	0
-	"	7	0
-
-> ~/kyle/ufs/tests/tests/fv3_ccpp_gfs_v15p2_coldstart_LOCAL_25928
-	*	1580424860	0
+> ~/fv3-bundle/fv3-jedi/test/Data/ModelDirs/ufs/c96/nems.configure
+	*	1616437636	0
 	"	1	0
 
-> ~/kyle/ufs/tests/tests/fv3_ccpp_gfs_v15p2_coldstart
-	*	1580424859	0
-	"	1	0
-	.	1	0
-	+	1	0
+> ~/fv3-bundle/fv3-jedi/test/Data/ModelDirs/ufs/ccpp/nems.configure
+	*	1616437626	0
+	"	1	1
 
-> ~/kyle/ufs/tests/tests/fv3_ccpp_gfs_v15p2_coldstart_REMOTE_25928
-	*	1580424854	0
-	"	1	0
+> ~/fv3-bundle/fv3-jedi/test/Data/ModelDirs/ufs/ccpp/INPUT/coupler.res
+	*	1616437581	0
+	"	3	5
+	.	3	5
+	+	2	5
+	+	3	5
+	+	2	5
+	+	3	5
 
-> ~/kyle/ufs/tests/tests/fv3_ccpp_gfs_v15p2_coldstart_BASE_25928
-	*	1580424852	0
-	"	1	0
+> ~/fv3_ccpp_restart_prod/INPUT/coupler.res
+	*	1616437572	0
+	"	2	5
 
-> ~/kyle/ufs/tests/tests/fv3_ccpp_gfs_v15p2_LOCAL_25928
-	*	1580424842	0
+> ~/fv3_ccpp_restart_prod/model_configure
+	*	1616437403	0
 	"	1	0
-
-> ~/kyle/ufs/tests/tests/fv3_ccpp_gfs_v15p2
-	*	1580424839	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/kyle/ufs/tests/tests/fv3_ccpp_gfs_v15p2_REMOTE_25928
-	*	1580424835	0
-	"	1	0
-
-> ~/kyle/ufs/tests/tests/fv3_ccpp_gfs_v15p2_BASE_25928
-	*	1580424832	0
-	"	1	0
-
-> ~/kyle/ufs/tests/rt_utils_LOCAL_25928.sh
-	*	1580424822	0
-	"	1	0
-
-> ~/kyle/ufs/tests/rt_utils.sh
-	*	1580424820	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/kyle/ufs/tests/rt_utils_REMOTE_25928.sh
-	*	1580424816	0
-	"	1	0
-
-> ~/kyle/ufs/tests/rt_utils_BASE_25928.sh
-	*	1580424813	0
-	"	1	0
-
-> ~/kyle/ufs/tests/rt_fv3_LOCAL_25928.sh
-	*	1580424798	0
-	"	1	0
-
-> ~/kyle/ufs/tests/rt_fv3.sh
-	*	1580424797	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/kyle/ufs/tests/rt_fv3_REMOTE_25928.sh
-	*	1580424793	0
-	"	1	0
-
-> ~/kyle/ufs/tests/rt_fv3_BASE_25928.sh
-	*	1580424791	0
-	"	1	0
-
-> ~/kyle/ufs/tests/rt_LOCAL_25928.sh
-	*	1580424779	0
-	"	1	0
-
-> ~/kyle/ufs/tests/rt.sh
-	*	1580424777	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/kyle/ufs/tests/rt_REMOTE_25928.sh
-	*	1580424774	0
-	"	1	0
-
-> ~/kyle/ufs/tests/rt_BASE_25928.sh
-	*	1580424771	0
-	"	1	0
-
-> ~/kyle/ufs/tests/rt_LOCAL_25928.conf
-	*	1580424758	0
-	"	1	0
-
-> ~/kyle/ufs/tests/rt.conf
-	*	1580424756	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/kyle/ufs/tests/rt_REMOTE_25928.conf
-	*	1580424751	0
-	"	1	0
-
-> ~/kyle/ufs/tests/rt_BASE_25928.conf
-	*	1580424749	0
-	"	1	0
-
-> ~/kyle/ufs/tests/fv3_conf/gfs_v16_run_LOCAL_25928.IN
-	*	1580424739	0
-	"	1	0
-
-> ~/kyle/ufs/tests/fv3_conf/gfs_v16_run.IN
-	*	1580424737	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/kyle/ufs/tests/fv3_conf/gfs_v16_run_REMOTE_25928.IN
-	*	1580424734	0
-	"	1	0
-
-> ~/kyle/ufs/tests/fv3_conf/gfs_v16_run_BASE_25928.IN
-	*	1580424731	0
-	"	1	0
-
-> ~/kyle/ufs/tests/detect_machine_LOCAL_25928.sh
-	*	1580424706	0
-	"	1	0
-
-> ~/kyle/ufs/tests/detect_machine.sh
-	*	1580424704	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/kyle/ufs/tests/detect_machine_REMOTE_25928.sh
-	*	1580424700	0
-	"	1	0
-
-> ~/kyle/ufs/tests/detect_machine_BASE_25928.sh
-	*	1580424698	0
-	"	1	0
-
-> ~/kyle/ufs/tests/compile_cmake_REMOTE_25928.sh
-	*	1580424666	0
-	"	1	0
-
-> ~/kyle/ufs/tests/compile_cmake.sh
-	*	1580424664	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/kyle/ufs/tests/compile_cmake_LOCAL_25928.sh
-	*	1580424660	0
-	"	1	0
-
-> ~/kyle/ufs/tests/RegressionTests_hera.intel_LOCAL_25928.log
-	*	1580424638	0
-	"	1	0
-
-> ~/kyle/ufs/tests/RegressionTests_hera.intel.log
-	*	1580424636	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/kyle/ufs/tests/RegressionTests_hera.intel_REMOTE_25928.log
-	*	1580424632	0
-	"	1	0
-
-> ~/kyle/ufs/tests/RegressionTests_hera.intel_BASE_25928.log
-	*	1580424626	0
-	"	1	0
-
-> ~/kyle/ufs/tests/Compile_hera.intel_LOCAL_25928.log
-	*	1580424602	0
-	"	1	0
-
-> ~/kyle/ufs/tests/Compile_hera.intel.log
-	*	1580424599	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/kyle/ufs/tests/Compile_hera.intel_REMOTE_25928.log
-	*	1580424595	0
-	"	1	0
+	^	26	31
+	.	28	25
+	+	3	25
+	+	28	25
+	+	3	26
+	+	28	25
+	+	10	25
+	+	26	30
+	+	28	25
+	+	3	25
+	+	28	25
+	+	26	29
+	+	10	26
+	+	26	30
+	+	28	25

@@ -406,7 +406,8 @@ alias tree='tree -Csuh'    #  Nice alternative to 'recursive ls' ...
 # Tailoring 'less'
 #-------------------------------------------------------------
 
-alias more='less'
+alias more='less -n'
+alias less='less -n'
 export PAGER=less
 export LESSCHARSET='latin1'
 export LESSOPEN='|/usr/bin/lesspipe.sh %s 2>&-'
@@ -970,14 +971,35 @@ export SVN_EDITOR=vim
 #
 ##  For "literal" command substitution to be assigned to a variable,
 ##+ use escapes and double quotes:
+unalias more
 export SPACK_ROOT=$HOME/spack
 export PATH=$PATH:$SPACK_ROOT/bin
-export PATH=/usr/local/krb5/bin:$PATH
-export PATH=/usr/local/ossh/bin:$PATH
 . $SPACK_ROOT/share/spack/setup-env.sh
+#. /home/mpotts/spack.7.22.20/opt/spack/linux-linuxmint19-skylake/gcc-9.3.0/environment-modules-4.5.1-citss7womfcu/init/sh
+#export SPACK_ROOT=$HOME/spack
+#. $(spack location -i lmod)/lmod/lmod/init/bash
+#. /home/mpotts/spack/opt/spack/linux-linuxmint19-x86_64/gcc-8.3.0/lmod-7.8-att362oswafhgafkpyjhqjaq2t4feich/lmod/lmod/init/bash
+#module unuse /home/mpotts/spack/share/spack/modules/linux-linuxmint19-x86_64
+#module use /home/mpotts/spack/share/spack/lmod/linux-linuxmint19-x86_64/Core
 . $HOME/.bash_alias
-export CYLC_HOME_ROOT=$HOME/cylc
-export CYLC_HOME=$HOME/cylc
-export CYLC_VERSION=7.8.3
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
 export GIT_EDITOR=vim
+
+## >>> conda initialize >>>
+## !! Contents within this block are managed by 'conda init' !!
+#__conda_setup="$('/home/mpotts/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+#if [ $? -eq 0 ]; then
+#    eval "$__conda_setup"
+#else
+#    if [ -f "/home/mpotts/miniconda3/etc/profile.d/conda.sh" ]; then
+#        . "/home/mpotts/miniconda3/etc/profile.d/conda.sh"
+#    else
+#        export PATH="/home/mpotts/miniconda3/bin:$PATH"
+#    fi
+#fi
+#unset __conda_setup
+# <<< conda initialize <<<
+export OMP_NUM_THREADS=1
+export HISTFILESIZE=-1
+export HISTSIZE=-1
+. ~/spack/opt/spack/linux-linuxmint19-skylake/gcc-7.5.0/environment-modules-4.6.1-hal3leaor2qr32fnw5ul7qal76aql6ah/init/sh
